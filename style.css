@@ -71,7 +71,7 @@ body {
 }
 
 .project-image {
-    width: 95%;
+    width: 92%;
 
 }
 
@@ -82,9 +82,38 @@ body {
 .image-text {
     padding: 20px 20px;
     text-align: left;
-    border-radius: 30px;
+    border-radius: 20px;
     margin: 5px 30px;
     box-shadow: 5px 5px 10px gray;
 
 
+}
+
+.subscribers {
+    display: flex;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
+    margin: 70px;
+    padding: 20px 20px;
+
+}
+
+.individual-follower {
+    text-align: center;
+    width: 33.33%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 55px 10px;
+}
+
+.footer-para {
+    font-size: large;
+}
+
+.footer-fresh {
+    color: #73777B;
 }
