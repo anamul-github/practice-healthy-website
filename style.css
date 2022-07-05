@@ -1,17 +1,90 @@
 body {
     margin: 0;
+
 }
 
 .half-size {
     width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
 }
+
 
 .top-banner {
     display: flex;
-    padding: 60px;
-    margin: 40px;
+    padding: 70px;
+
 }
 
 .half-size img {
-    width: 60%;
+    width: 70%;
+}
+
+.h1-font-adjust {
+    font-size: xx-large;
+    color: #73777B;
+    padding-top: 50px;
+
+}
+
+.para {
+    color: #73777B;
+    font-size: large;
+    padding-bottom: 40px;
+}
+
+.color {
+    color: orange;
+}
+
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 40px;
+    margin-bottom: 200px;
+    color: white;
+    border-radius: 25px;
+}
+
+
+.about-me {
+    background-image: url(images/shapes/7.png);
+    padding: 30px 70px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.third-banner-headline {
+    text-align: center;
+}
+
+
+
+.project-titles {
+    display: flex;
+    margin: 40px;
+
+}
+
+.project-image {
+    width: 95%;
+
+}
+
+.recipe-h1 {
+    font-size: xx-large;
+}
+
+.image-text {
+    padding: 20px 20px;
+    text-align: left;
+    border-radius: 30px;
+    margin: 5px 30px;
+    box-shadow: 5px 5px 10px gray;
+
+
 }
